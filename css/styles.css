@@ -1,0 +1,196 @@
+/**********
+GLOBAL STYLES – BOOTSTRAP OVERRIDES
+***********/
+body {
+	background: #282828;
+}
+.container {
+	width: 90%;
+}
+iframe {
+	height: 700px;
+}
+
+/**********
+CLASSES
+**********/
+.black {
+	background: #211d1c;
+}
+.pink {
+	background: #f9005b;
+}
+.green {
+	background: #c9ff27;
+}
+.white {
+	background: #fff;
+}
+.black-text {
+	color: #211d1c;
+}
+.green-text {
+	color: #c9ff27;
+}
+.white-text {
+	color: #fff;
+}
+.card {
+	color: #fff;
+	padding: 15px 25px 10px;
+	margin-top: 30px;
+}
+.card h3 {
+	margin: 0 0 30px;
+	font-size: 25px;
+}
+.card p {
+	font-size: 12px;
+}
+.md {
+	height: 220px;
+}
+.lg {
+	height: 485px;
+}
+.no-padding {
+	padding: 0;
+}
+.no-margin {
+	margin: 0;
+}
+
+
+/**********
+NAVBAR
+**********/
+.navbar.navbar-default {
+	background: #282828;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #c9ff27;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #c3c3c3;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #c9ff27;
+}
+.dropdown-menu {
+	background: rgba(40,40,40,0.85);
+	border: none;
+	border-radius: 0;
+}
+.dropdown-menu>li>a {
+	color: #c3c3c3;
+}
+.dropdown-menu>li>a:hover {
+	color: #c3c3c3;
+	background: transparent;
+	border-left: 2px solid #c9ff27;
+}
+
+/**********
+JUMPSTERS INTRO
+**********/
+.jumpsters-intro {
+	border-top: 3px solid #f9005b;
+}
+.about {
+	color: #fff;
+}
+
+
+/**********
+PRICING
+**********/
+.pricing {
+	padding: 0 0 30px;
+}
+.pricing .time,
+.pricing .price {
+	font-size: 25px;
+}
+.pricing .time {
+	overflow: hidden;
+}
+.pricing .right-border {
+	border-right: 1px solid #c9ff27;
+}
+
+
+/**********
+SAFETY
+**********/
+.safety .safety-photo {
+	background: url('../img/safety.png') no-repeat center center;
+	background-size: cover;
+}
+.safety .card {
+	margin-top: 0;
+}
+
+
+/**********
+FAQ
+**********/
+.faq {
+	padding: 35px 0;
+	font-size: 10px;
+}
+.faq h3 {
+	font-size: 37px;
+	margin-bottom: 30px;
+}
+.faq p.green-text {
+	margin-bottom: 0;
+}
+
+
+/**********
+FOOTER
+**********/
+footer {
+	padding: 30px 0 10px;
+}
+footer h6,
+footer ul {
+	font-size: 10px;
+}
+footer h6 {
+	text-transform: uppercase;
+}
+footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+footer p {
+	font-size: 8px;
+}
+footer img {
+	border-left: 1px solid #666666;
+	padding-left: 10px;
+}
+footer .pink {
+	height: 16px;
+}
+
+
+/**********
+MEDIA QUERIES
+**********/
+
+@media screen and (max-width: 768px) {
+	iframe {
+		height: 200px;
+	}
+	.container {
+		width: 100%;
+	}
+	.pricing .right-border {
+		border-right: none;
+		border-bottom: 1px solid #c9ff27;
+	}
+}
